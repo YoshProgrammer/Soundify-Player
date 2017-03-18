@@ -18,6 +18,10 @@ E-mail is best! Shoot me a message at hello@yoshprogramming.com
 # How do I run this?
 Simply follow the steps below. You will need a SoundCloud API Key. You can get one here: https://developers.soundcloud.com/
 
+## I don't care for the technicals details. Give me the TL;DR version.
+Acquire your API key, go to soundify-player/src/app/music/shared/api.service.ts and insert your API key.
+Run `npm install`, `ng serve`, and then `electron .`. This will fire install the necessary packages, fire up the Angular2 portion of the application and then electron will pick up your application, serving it from the electron window.
+
 ## Project Setup - Via Angular(2) CLI
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
 
