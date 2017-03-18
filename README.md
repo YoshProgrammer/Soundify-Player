@@ -4,10 +4,10 @@
 Soundify Player is based off of a tutorial I saw on Scotch.IO. Essentially, it's an Angular2 + Electron application that utilizies SoundCloud's APIs to find music and stream it to your computer. 
 
 ## What's next up for this application?
-1.) Adding in the ability to add songs, tracks or artists to a favorites list
-2.) UI Authentication so you're able to sign in
-3.) Music Metrics - Think of this as a basic set of statistics about how often you listen, what genre(s) are most popular etc
-4.) Add a guest feature, where it utilizies Electron's access to local storage to have the same benefits as a logged-in user but is only saved until the user clears their session (think of a browser, same exact concept).
+1. Adding in the ability to add songs, tracks or artists to a favorites list
+2. UI Authentication so you're able to sign in
+3. Music Metrics - Think of this as a basic set of statistics about how often you listen, what genre(s) are most popular etc
+4. Add a guest feature, where it utilizies Electron's access to local storage to have the same benefits as a logged-in user but is only saved until the user clears their session (think of a browser, same exact concept).
 
 ## What about publishing this application so I can use it daily?
 I'm working on v2 of this application that is packaged as an application for Windows and MacOS.
@@ -19,8 +19,13 @@ E-mail is best! Shoot me a message at hello@yoshprogramming.com
 Simply follow the steps below. You will need a SoundCloud API Key. You can get one here: https://developers.soundcloud.com/
 
 ## I don't care for the technicals details. Give me the TL;DR version.
-Acquire your API key, go to soundify-player/src/app/music/shared/api.service.ts and insert your API key.
-Run `npm install`, `ng serve`, and then `electron .`. This will fire install the necessary packages, fire up the Angular2 portion of the application and then electron will pick up your application, serving it from the electron window.
+1. Acquire your API key, go to soundify-player/src/app/music/shared/api.service.ts and insert your API key.
+
+1. Run `npm install`
+2. Run `ng serve`
+3. Run `electron .`
+
+This will fire install the necessary packages, fire up the Angular2 portion of the application and then electron will pick up your application, serving it from the electron window.
 
 ## Project Setup - Via Angular(2) CLI
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
