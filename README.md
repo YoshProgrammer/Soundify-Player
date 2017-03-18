@@ -3,7 +3,7 @@
 ## What is SoundifyPlayer?
 Soundify Player is based off of a tutorial I saw on Scotch.IO. Essentially, it's an Angular2 + Electron application that utilizies SoundCloud's APIs to find music and stream it to your computer. 
 
-## GIF of SoundifyPlayer (Give it a minute to load)
+## GIF of SoundifyPlayer 
 
 ![Alt Text](https://d3uepj124s5rcx.cloudfront.net/items/2P2y2U0e2z2b2u0x0H0w/Screen%20Recording%202017-03-18%20at%2012.53%20PM.gif)
 
